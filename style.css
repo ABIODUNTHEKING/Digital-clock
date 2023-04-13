@@ -59,7 +59,14 @@ main{
         width: 95%;
         font-size: 2rem;
     }
+
+    .space:first-of-type{
+        margin-left: 10px;
+    }
     .space:first-of-type::after{
         margin-right: 20px;
     }
+
+    
+    
 }
