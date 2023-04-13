@@ -72,3 +72,22 @@ main{
     
     
 }
+
+@media screen and (max-width: 369px) {
+    main{
+        width: 95%;
+        font-size: 1.5rem;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .space:first-of-type{
+        margin-left: 10px;
+    }
+    .space:first-of-type::after{
+        margin-right: 5px;
+    }
+
+    
+    
+}
