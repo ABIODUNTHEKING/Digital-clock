@@ -58,6 +58,8 @@ main{
     main{
         width: 95%;
         font-size: 2rem;
+        padding-left: 10px;
+        padding-right: 10px;
     }
 
     .space:first-of-type{
